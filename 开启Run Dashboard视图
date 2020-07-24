@@ -1,0 +1,12 @@
+修改文件：.idea/workspace.xml
+
+搜索：<component name="RunDashboard">
+
+添加以下代码
+
+<option name="configurationTypes">  
+   <set>  
+      <option value="SpringBootApplicationConfigurationType" />  
+   </set>  
+</option>
+重启IDEA
