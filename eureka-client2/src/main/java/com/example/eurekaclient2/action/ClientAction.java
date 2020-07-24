@@ -1,4 +1,4 @@
-package com.example.eurekaclient.action;
+package com.example.eurekaclient2.action;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
@@ -13,7 +13,7 @@ public class ClientAction {
 
     @GetMapping("/dc")
     public String dc() {
-        String services = "Services: " + discoveryClient.getServices() + "当前调用服务1";
+        String services = "Services: " + discoveryClient.getServices() + "当前调用服务2";;
         System.out.println(services);
         return services;
     }
